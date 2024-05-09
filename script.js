@@ -1,6 +1,7 @@
 // For the mobile navigation
 window.addEventListener("resize", function(){
   addRequiredClasses();
+  hamberger.textContent = '☰' ;
 });
 // window.addEventListener("load", function(){
 //   addRequiredClasses();

@@ -104,7 +104,23 @@ nav ul.dropdown-list {
    background-color: whitesmoke;
     transition: all 0.5s ease-in-out;
     width: 100vw;
-    padding-right: 50px;
+    /* padding-right: 50px; */
+  }
+  .nav-list li ul {
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    gap: 16px;
+    max-height: 32vh;
+    min-width: 30vw; 
+    margin: -30px -0px;
+    align-items: space-around;
+    text-align: center;
+  }
+  .nav-list li ul li{
+    text-decoration: underline;
+    margin: 0 50px;
+    color: black;
   }
   
   /* ul.nav-list {
